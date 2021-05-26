@@ -1,0 +1,42 @@
+﻿@page "/counter"
+
+<h3>Counter</h3>
+<p>Saisie de la valeur initiale</p>
+
+<input type="number"
+       @onkeypress="KeyPressed"
+       @onkeypress:preventDefault="true"
+       @bind-value=" initVal"
+       @bind-value:event="oninput" />
+
+<Counter InitialCount="@initVal"></Counter>
+
+@code {
+
+    [Inject] protected IJSRuntime JSRuntime { get; set; }
+    public int initVal { get { return _initVal; } set { _initVal = value; } }
+    private int _initVal;
+
+    public void KeyPressed(KeyboardEventArgs e)
+    {
+        if (e.Key == "+")
+        {
+            initVal += 5421;
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var jsValue = await JSRuntime.InvokeAsync<string>("askInitial");
+            if (int.TryParse(jsValue, out int val))
+            {
+                initVal = val;
+                StateHasChanged();
+            }
+        }
+
+        await base.OnAfterRenderAsync(firstRender);
+    }
+}

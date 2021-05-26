@@ -1,0 +1,12 @@
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\bin\Debug\net5.0\MyApp.Models.deps.json
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\bin\Debug\net5.0\MyApp.Models.dll
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\bin\Debug\net5.0\ref\MyApp.Models.dll
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\bin\Debug\net5.0\MyApp.Models.pdb
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\obj\Debug\net5.0\MyApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\obj\Debug\net5.0\MyApp.Models.AssemblyInfoInputs.cache
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\obj\Debug\net5.0\MyApp.Models.AssemblyInfo.cs
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\obj\Debug\net5.0\MyApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\obj\Debug\net5.0\MyApp.Models.dll
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\obj\Debug\net5.0\ref\MyApp.Models.dll
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\obj\Debug\net5.0\MyApp.Models.pdb
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Models\obj\Debug\net5.0\MyApp.Models.csprojAssemblyReference.cache

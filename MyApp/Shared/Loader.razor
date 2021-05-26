@@ -1,0 +1,36 @@
+﻿@implements IDisposable
+
+<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+@if (showMessage)
+{
+    @ChildContent
+}
+
+@code{
+
+    [Parameter] public int TimoutInMs { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; }
+
+    private bool showMessage;
+    private System.Threading.CancellationTokenSource ct = new System.Threading.CancellationTokenSource();
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        _ = Task.Delay(TimoutInMs, ct.Token).ContinueWith(async t =>{
+
+            if (t.IsCompletedSuccessfully)
+            {
+                showMessage = true;
+                await InvokeAsync(StateHasChanged);
+            }
+        });
+        return base.OnAfterRenderAsync(firstRender);
+
+    }
+
+     public void Dispose()
+    {
+        ct.Cancel();
+    }
+}

@@ -1,0 +1,29 @@
+﻿@inherits CounterBase
+
+<h1>Nombre Magique ! </h1>
+@if (Loading)
+{
+    <p>Loading ...</p>
+}
+else
+{
+    <div>
+        <h4> Counter  </h4>
+        <p> Current count: @currentCount </p>
+
+        <button class="btn btn-primary" 
+                disabled="@(currentCount>=20)"
+                style="color:@Color;"
+                @onclick="IncrementCount"
+                @onclick:stopPropagation="true"
+                >
+           Click me
+        </button>
+
+        <button class="btn btn-primary"  onclick="Increment3()">
+            Increment 3
+        </button>
+    </div>
+  
+}
+ 

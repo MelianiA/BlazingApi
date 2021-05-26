@@ -1,0 +1,15 @@
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\bin\Debug\net5.0\MyApp.Models.dll
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\obj\Debug\net5.0\MyApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\obj\Debug\net5.0\MyApp.Services.AssemblyInfoInputs.cache
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\obj\Debug\net5.0\MyApp.Services.AssemblyInfo.cs
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\bin\Debug\net5.0\MyApp.Services.deps.json
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\bin\Debug\net5.0\MyApp.Services.dll
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\bin\Debug\net5.0\ref\MyApp.Services.dll
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\bin\Debug\net5.0\MyApp.Services.pdb
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\bin\Debug\net5.0\MyApp.Models.pdb
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\obj\Debug\net5.0\MyApp.Services.csprojAssemblyReference.cache
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\obj\Debug\net5.0\MyApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\obj\Debug\net5.0\MyApp.Services.csproj.CopyComplete
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\obj\Debug\net5.0\MyApp.Services.dll
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\obj\Debug\net5.0\ref\MyApp.Services.dll
+C:\Users\alyf\Desktop\Script c#\ApprentissageBlazor\MyApp\MyApp.Services\obj\Debug\net5.0\MyApp.Services.pdb

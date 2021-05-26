@@ -1,0 +1,46 @@
+﻿@page "/form"
+
+<EditForm OnValidSubmit="Validate" Model="Client">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Nom" @bind-value="Client.Name" />
+        <small>
+            <ValidationMessage For="()=>Client.Name" />
+        </small>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="N°" @bind-value="Client.Number" />
+        <small>
+            <ValidationMessage For="()=>Client.Number" />
+        </small>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Rue" @bind-value="Client.Street" />
+        <small>
+            <ValidationMessage For="()=>Client.Street" />
+        </small>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Code Postal" @bind-value="Client.ZipCode" />
+        <small>
+            <ValidationMessage For="()=>Client.ZipCode" />
+        </small>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Valider</button>
+</EditForm>
+
+@code {
+
+    [Inject]
+    public NavigationManager Navigation { get; set; }
+
+    public Customer Client { get; set; } = new Customer();
+
+    public async Task Validate()
+    {
+        Navigation.NavigateTo("/");
+    }
+
+}
