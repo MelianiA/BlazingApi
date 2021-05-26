@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T3vKkgUP1QlRu7/sYwiwz48wOy+DlNZbrm4ExAnj4qNuHoqoBGtn8nm0ZFdFHEI9AWN4YlrZv9bpF1jGh6jZ6g==",
+  "dgSpecHash": "T0fYdG+akV3F7oS8gCCzb04lDm/F5UAlOpgPbo7TrqbyQni+Nl+DDtVPNz38AfItPfHn11yU9p1thsqX9l9jKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alyf\\Desktop\\Script c#\\ApprentissageBlazor\\MyApp.Ai\\MyApp.Api.csproj",
+  "projectFilePath": "C:\\Users\\alyf\\Desktop\\Script c#\\ApprentissageBlazor\\MyApp\\MyApp.Api\\MyApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alyf\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\alyf\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
